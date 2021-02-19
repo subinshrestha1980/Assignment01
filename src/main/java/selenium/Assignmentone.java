@@ -16,7 +16,7 @@ public class Assignmentone {
 	
 	public void launchBrowser() {
 
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\14696\\Aug2020_Selenium\\hr\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://techfios.com/billing/?ng=admin/");
 		driver.manage().window().maximize();
